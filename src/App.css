@@ -1,0 +1,43 @@
+.effect{
+  overflow:hidden;
+  
+}
+.effect:hover{
+  box-shadow: 5px 5px 10px lightgrey;
+  
+}
+.main{
+  margin: 0px 7vw;
+}
+.background{
+  background-image: url('/src/components/bannerbackground.png');
+  background-position: cover cover; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  height: 80vh;
+}
+.active{
+  color: red;
+  text-decoration: underline;
+ 
+  
+}
+.focus{
+  border-radius: 30px;
+  width: 30vw;
+  padding: 8px;
+  margin-left: 35vw;
+  z-index: -1;
+  border: none;
+  height: 6vh;
+}
+
+.focus:focus{
+  outline: none;
+}
+.style{
+  
+  border: 1px circular black;
+  color: red;
+}
